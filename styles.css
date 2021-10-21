@@ -1,6 +1,6 @@
 
 body {
-    background: #ddd;
+    background: #faf8e7;
     font-family: "Fira Sans","Trebuchet MS",Helvetica,Arial,sans-serif;
     box-sizing: border-box;
     margin: 10px;
@@ -44,15 +44,16 @@ a {
 
 .poke_project:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: rgba(255, 0, 0, 0.74);
+    background-color: rgba(19, 138, 250, 0.74);
+    color: white;
     border-radius: 5px;
 	transition-duration: 0.4s;
 }
 
 .button {
-	background-color: white;
+	background-color: #faf8e7;
  	color: black;
-	border: none;
+	border: 1px solid black;
     border-radius: 5px;
 	transition-duration: 0.4s;
 	font-size: 16px;
@@ -63,6 +64,6 @@ a {
 
 .button:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-	background-color: rgba(255, 0, 0, 0.74);
-	color: black;
+	background-color: rgba(19, 138, 250, 0.74);
+	color: white;
 }
